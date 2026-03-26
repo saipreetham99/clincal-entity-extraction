@@ -27,6 +27,12 @@ Full dataset extraction on **4,999 clinical notes** from MTSamples using `gemini
 
 | Metric | Value |
 |---|---|
+| Documents processed | 20 |
+| Documents with entities | 18 |
+| Total entities extracted | 401 |
+| Avg entities / document | 20.1 |
+| Runtime | 20m 8s | Value |
+|---|---|
 | Documents processed | X,XXX |
 | Documents with entities | X,XXX |
 | Total entities extracted | XX,XXX |
@@ -36,6 +42,13 @@ Full dataset extraction on **4,999 clinical notes** from MTSamples using `gemini
 ### Entity Class Distribution
 
 | Class | Count |
+|---|---|
+| diagnosis | 277 |
+| medication | 73 |
+| dosage | 25 |
+| route | 17 |
+| frequency | 5 |
+| duration | 4 | Count |
 |---|---|
 | diagnosis | X,XXX |
 | medication | X,XXX |
@@ -48,11 +61,33 @@ Full dataset extraction on **4,999 clinical notes** from MTSamples using `gemini
 
 | Medication | Count |
 |---|---|
+| epinephrine | 4 |
+| allegra | 3 |
+| crestor | 3 |
+| general | 3 |
+| normal saline solution | 3 |
+| xylocaine | 3 |
+| zyrtec | 2 |
+| marcaine | 2 |
+| anesthesia | 2 |
+| lidocaine | 2 | Count |
+|---|---|
 | ... | ... |
 
 ### Top 10 Diagnoses Extracted
 
 | Diagnosis | Count |
+|---|---|
+| asthma | 4 |
+| hypertension | 4 |
+| pulmonary embolism | 4 |
+| bleeding | 4 |
+| infection | 4 |
+| morbid obesity | 4 |
+| diabetes | 3 |
+| obesity | 3 |
+| high cholesterol | 3 |
+| deep venous thrombosis | 3 | Count |
 |---|---|
 | ... | ... |
 
