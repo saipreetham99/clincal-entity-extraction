@@ -1,0 +1,6 @@
+#   git clone https://github.com/google/langextract.git
+#   cd langextract && pip install -e .
+
+pandas>=2.0.0
+tqdm>=4.60.0
+python-dotenv>=1.0.0

@@ -1,0 +1,26 @@
+# API keys
+.env
+
+# Output artifacts (large JSONL + HTML)
+output/
+
+# LangExtract cloned source (install separately)
+langextract/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
